@@ -1,0 +1,61 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: aquamarine;
+    height: 40px;
+    position: fixed;
+    width: 100vw;
+ }
+.items{
+    display: flex;
+}
+.item{
+    padding-right: 20px;
+}
+.home h1{
+    font-size: 170px;
+    color: white;
+}
+.home{
+    display: flex;
+    background-color: black;
+}
+.right img{
+    margin-top: 500px;
+}
+.about{
+    display: flex;
+}
+.about img{
+    height: 500px;
+    width: 500px;
+}
+.about h1{
+    font-size: 100px;
+}
+.service{
+    display: grid;
+    grid-template-columns:repeat(3,550px)
+}
+.services h2{
+    font-size: 100px;
+}
+.container .us{
+    font-size: 100px;
+    padding-left: 400px; 
+    color: white;
+}
+input{
+    width: 90vw;
+    height: 50px;
+    margin-left:20px;
+    background-color: black;
+}
+#btn{
+    width: 150px !important;
+    background-color: white;
+}
+.contact{
+    background-color: black;
+}
